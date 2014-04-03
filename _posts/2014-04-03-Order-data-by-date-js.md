@@ -18,7 +18,7 @@ d3.csv('yourData.csv', function (error,data) {
 		//I have a date column in my csv;
 	    d.DateNumber = d.Date.getDate();
 	    //I wanted to order them by day, but it's possible with month and year as well :
-	     d.Date.getFullYear()+''+d.Date.getMonth() + '' +  d.Date.getDate() + '';
+	    // d.Date.getFullYear()+''+d.Date.getMonth() + '' +  d.Date.getDate() + '';
 	    d.DateNumber = parseInt(d.DateNumber);
 	});
 	
