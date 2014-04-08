@@ -4,5 +4,5 @@ pygments: true
 analytics :
   provider : google
   google : 
-      tracking_id : 'UA-49682853-1'
+      tracking_id : 'UA-49819047-1'
  
